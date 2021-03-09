@@ -337,8 +337,7 @@ except FileNotFoundError:
 
 
 __VERSION__ = get_version()
-__CONTRIBUTORS__ ', 'mishaal zayn', 't0xic0der', 'scpketer', 'Stefan']
-
+__CONTRIBUTORS__ = ['Nitro', 'SpeedX', 't0xic0der', 'scpketer', 'Stefan']
 ALL_COLORS = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE,
               Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
 RESET_ALL = Style.RESET_ALL
