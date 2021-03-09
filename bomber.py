@@ -89,13 +89,13 @@ def do_zip_update():
     # Unzip and overwrite the current folder
 
     if success:
-        mesgdcrt.SuccessMessage("TBomb was updated to the latest version")
+        mesgdcrt.SuccessMessage("Dicruz_bomber was updated to the latest version")
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update TBomb.")
+        mesgdcrt.FailureMessage("Unable to update Dicruz_bomber.")
         mesgdcrt.WarningMessage(
-            "Grab The Latest one From https://github.com/Hackertrackersj/Tbomb.git")
+            "Grab The Latest one From https://github.com/mishu166/Dicruz_bomber.git")
 
     sys.exit()
 
@@ -120,16 +120,16 @@ def do_git_update():
     print("\n")
 
     if success:
-        mesgdcrt.SuccessMessage("TBomb was updated to the latest version")
+        mesgdcrt.SuccessMessage("Dicruz_bomber was updated to the latest version")
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update TBomb.")
+        mesgdcrt.FailureMessage("Unable to update Dicruz_bomber.")
         mesgdcrt.WarningMessage("Make Sure To Install 'git' ")
         mesgdcrt.GeneralMessage("Then run command:")
         print(
             "git checkout . && "
-            "git pull https://github.com/Hackertrackersj/Tbomb HEAD")
+            "git pull https://github.com/mishu166/Dicruz_bomber HEAD")
     sys.exit()
 
 
@@ -143,21 +143,21 @@ def update():
 def check_for_updates():
     mesgdcrt.SectionMessage("Checking for updates")
     fver = requests.get(
-            "https://raw.githubusercontent.com/Hackertrackersj/Tbomb/master/.version"
+            "https://raw.githubusercontent.com/mishu166/Dicruz_bomber/master/.version"
             ).text.strip()
     if fver != __VERSION__:
         mesgdcrt.WarningMessage("An update is available")
         mesgdcrt.GeneralMessage("Starting update...")
         update()
     else:
-        mesgdcrt.SuccessMessage("TBomb is up-to-date")
-        mesgdcrt.GeneralMessage("Starting TBomb")
+        mesgdcrt.SuccessMessage("Dicruz_bomber is up-to-date")
+        mesgdcrt.GeneralMessage("Starting Dicruz_bomber")
 
 
 def notifyen():
     try:
         noti = requests.get(
-            "https://raw.githubusercontent.com/Hackertrackersj/Tbomb/master/.notify"
+            "https://raw.githubusercontent.com/mishu166/Dicruz_bomber/master/.notify"
             ).text.upper()
         if len(noti) > 10:
             mesgdcrt.SectionMessage("NOTIFICATION: " + noti)
@@ -211,7 +211,7 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("TBomb was created by nitro")
+    mesgdcrt.SuccessMessage("Dicruz_bomber was created by mishaal zayn")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
@@ -338,7 +338,7 @@ except FileNotFoundError:
 
 
 __VERSION__ = get_version()
-__CONTRIBUTORS__ = ['Nitro', 'SpeedX', 't0xic0der', 'scpketer', 'Stefan']
+__CONTRIBUTORS__ = ['mishu166', 'SpeedX', 't0xic0der', 'scpketer', 'Stefan']
 
 ALL_COLORS = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE,
               Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
@@ -351,23 +351,23 @@ TBomb can be used for many purposes which incudes -
 \t Friendly Spamming
 \t Testing Your Spam Detector and more ....
 
-TBomb is not intented for malicious uses.
+Dicruz_bomber is not intented for malicious uses.
 """
 
 parser = argparse.ArgumentParser(description=description,
-                                 epilog='Coded by Nitro !!!')
+                                 epilog='Coded by Mishaal !!!')
 parser.add_argument("-sms", "--sms", action="store_true",
-                    help="start TBomb with SMS Bomb mode")
+                    help="start Dicruz_bomber with SMS Bomb mode")
 parser.add_argument("-call", "--call", action="store_true",
-                    help="start TBomb with CALL Bomb mode")
+                    help="start Dicruz_bomber with CALL Bomb mode")
 parser.add_argument("-mail", "--mail", action="store_true",
-                    help="start TBomb with MAIL Bomb mode")
+                    help="start Dicruz_bomber with MAIL Bomb mode")
 parser.add_argument("-u", "--update", action="store_true",
-                    help="update TBomb")
+                    help="update Dicruz_bomber ")
 parser.add_argument("-c", "--contributors", action="store_true",
-                    help="show current TBomb contributors")
+                    help="show current Dicruz_bomber contributors")
 parser.add_argument("-v", "--version", action="store_true",
-                    help="show current TBomb version")
+                    help="show current Dicruz_bomber version")
 
 
 if __name__ == "__main__":
