@@ -51,14 +51,13 @@ def clr():
 def bann_text():
     clr()
     logo = """
-   ████████ █████                 ██
-   ▒▒▒██▒▒▒ ██▒▒██                ██
-      ██    ██  ██        ██   ██ ██
-      ██    █████▒  ████  ███ ███ █████
-      ██    ██▒▒██ ██  ██ ██▒█▒██ ██▒▒██
-      ██    ██  ██ ██  ██ ██ ▒ ██ ██  ██
-      ██    █████▒ ▒████▒ ██   ██ █████▒
-      ▒▒    ▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒
+   
+     [][][]   []   [][][]  [][][]   []    []  [][][][]
+     []   []  []  []       []   []  []    []        []
+     []   []  []  []       [][][]   []    []      []
+     []   []  []  []       []   []  []    []    []
+     [][][]   []   [][][]  []   []    [][]    [][][][]
+      
                                          """
     version = "Version: "+__VERSION__
     contributors = "Contributors: "+" ".join(__CONTRIBUTORS__)
@@ -338,13 +337,13 @@ except FileNotFoundError:
 
 
 __VERSION__ = get_version()
-__CONTRIBUTORS__ = ['mishu166', 'SpeedX', 't0xic0der', 'scpketer', 'Stefan']
+__CONTRIBUTORS__ ', 'mishaal zayn', 't0xic0der', 'scpketer', 'Stefan']
 
 ALL_COLORS = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE,
               Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
 RESET_ALL = Style.RESET_ALL
 
-description = """TBomb - Your Friendly Spammer Application
+description = """Dicruz_bomber - Your Friendly Spammer Application
 
 TBomb can be used for many purposes which incudes -
 \t Exposing the vulnerable APIs over Internet
