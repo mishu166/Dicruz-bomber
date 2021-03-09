@@ -27,19 +27,24 @@ banner() {
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing TBomb'
+        echo 'Introducing Dicruz_bomber'
     else
-        figlet TBomb
+        figlet Dicruz_bomber
     fi
     if ! [ -x "$(command -v toilet)" ]; then
-        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mNitro Hacker \e[0m"
+        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mMishaal zayn \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
         toilet -f mono12 -F border Nitro
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
-    echo -e "\e[1;32m           Telegram: https://t.me/nitro hacker \e[0m"
-    echo -e "\e[4;32m   YouTube: https://www.youtube.com/channel/UCv80Btv_4kn_9b-GVgPIwMg \e[0m"
+    echo -e "\e[1;32m           Telegram: https://t.me/mishaal zayn \e[0m"
+    
+
+    
+    
+    
+    UCRn9PFl-IxJ-L0_QePMe67A \e[0m"
     echo " "
 
 }
@@ -97,7 +102,7 @@ else
     echo .
     echo .
     install_deps
-    echo This Script Was Made By Nitro > .update
+    echo This Script Was Made By Mishaal > .update
     echo 'Requirements Installed....'
     pause
 fi
@@ -116,7 +121,7 @@ do
     clear
    if [ $ch -eq 1 ];then
         echo -e "\e[1;34m        wait please"
-        echo -e "\e[1;32m   Subscribe Nitro Hacker Youtube Channel"
+        echo -e "\e[1;32m   Subscribe dicrooz creation Youtube Channel"
         sleep 5
         cd $HOME
         cd Tbomb
@@ -125,7 +130,7 @@ do
         exit
     elif [ $ch -eq 2 ];then
         echo -e "\e[1;34m          wait please"
-        echo -e "\e[1;32m    Subscribe Nitro Hacker Youtube Channel"
+        echo -e "\e[1;32m    Subscribe Dicrooz Creation Youtube Channel"
         sleep 5
         cd $HOME
         cd Tbomb
@@ -135,7 +140,7 @@ do
         exit
     elif [ $ch -eq 3 ];then
          echo -e "\e[1;34m        wait please"
-        echo -e "\e[1;32m   Subscribe Nitro Hacker Youtube Channel"
+        echo -e "\e[1;32m   Subscribe Dicrooz Creation Youtube Channel"
          sleep 5
          cd $HOME
         git clone https://github.com/ha-mrx/Emailbomb
@@ -146,18 +151,18 @@ do
         exit
     elif [ $ch -eq 4 ];then
         echo -e "\e[1;34m            whatsapp bombing coming soon"
-        echo -e "\e[1;32m        Subscribe Nitro Hacker Youtube Channel"
+        echo -e "\e[1;32m        Subscribe Dicrooz Creation Youtube Channel"
         sleep 5
         cd $HOME
-        cd Tbomb
-        bash TBomb.sh
+        cd Dicruz_bomber
+        bash Dicruz_bomber.sh
     elif [ $ch -eq 5 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         cd $HOME
-        rm -rf Tbomb
-        git clone https://github.com/Hackertrackersj/Tbomb
-        cd Tbomb
-        bash TBomb.sh
+        rm -rf Dicruz_bomber
+        git clone https://github.com/Hackertrackersj/Dicruz_bomber
+        cd Dicruz_bomber
+        bash Dicruz_bomber.sh
        
         exit
     elif [ $ch -eq 6 ];then
