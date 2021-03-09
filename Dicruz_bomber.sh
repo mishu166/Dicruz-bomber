@@ -114,8 +114,8 @@ do
     echo "Press 1 To  Start SMS  Bomber "
     echo "Press 2 To  Start CALL Bomber "
     echo "Press 3 To  Start MAIL Bomber "
-    echo "Press 4 To  Whatsapp Bomber (Coming Now) "
-    echo "Press 5 To  Update (Works On Linux And Linux Emulators) "
+     echo "Press 4 To  Whatsapp Bomber ( Coming Now) "
+    echo 5 To  Update (Works On Linux And Linux Emulators) "
     echo "Press 6 To  Exit "
     read ch
     clear
